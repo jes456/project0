@@ -1,4 +1,19 @@
-h1
-{
-  color = red;
+$myColor:gray;
+header{
+  nav{
+    ul{
+    font-weight: lighter;
+    color: $myColor;
+    }
+  }
+}
+
+.body{
+  font-family: "Geneva", sans-serif;
+
+}
+.body-extend{
+  @extend .body;
+  font-weight: 75;
+  font-weight: lighter;
 }

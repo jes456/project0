@@ -1,0 +1,42 @@
+#mainHeader, h1 {
+  text-align: center;
+  background: #dedcdc;
+  font-family: "Geneva", sans-serif;
+  font-weight: 75;
+  padding: 5px
+}
+#mainHeader::after{
+  content: '';
+  display: table;
+  clear:both;
+}
+nav a{
+  text-decoration: none;
+  float:none;
+}
+nav ul{
+  list-style: none;
+}
+nav li{
+  display: inline-block;
+}
+th,td{
+  text-align: center;
+}
+div{
+  padding-top: 10px;
+}
+
+nav a:hover{
+  color: gray;
+}
+div:last-child{
+  font-family: "Geneva", sans-serif;
+  font-weight: 75;
+  text-align: center;
+}
+@media only screen and (max-width:1000px) {
+  #mainHeader,.body,.body-extend{
+    visibility: hidden;
+  }
+}

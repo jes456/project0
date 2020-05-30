@@ -1,0 +1,20 @@
+header nav ul {
+  font-weight: lighter;
+  color: gray;
+}
+
+.body, .body-extend {
+  font-family: "Geneva", sans-serif;
+}
+
+.body-extend {
+  font-weight: 75;
+  font-weight: lighter;
+}
+.bio{
+  text-align: center;
+  color: gray;
+  font-weight:100;
+  margin-left: 15%;
+  margin-right: 15%;
+}
